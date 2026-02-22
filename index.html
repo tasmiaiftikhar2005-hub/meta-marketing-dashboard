@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Marketing Learning | Master E-commerce Ads</title>
+    <meta name="description"
+        content="Professional e-learning platform for mastering Facebook and Instagram ads for E-commerce. Beginner to Professional level.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container" style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+            <div class="logo">Meta Ads Academy</div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#modules">Curriculum</a></li>
+                    <li><button class="btn btn-primary" onclick="showDashboard()">Start Learning</button></li>
+                </ul>
+            </nav>
+            <nav id="dash-nav" style="display: none;">
+                <ul>
+                    <li><a href="#" onclick="showLanding()">Home</a></li>
+                    <li>
+                        <div class="user-profile"><i class="fas fa-user-circle"></i> Student</div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="landing-page" class="landing-page">
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>Scale Your E-commerce Store with Meta Ads</h1>
+                <p>The only structured learning path designed for Shopify owners who want to master Facebook and
+                    Instagram advertising. Learn the exact strategies used by top 1% stores.</p>
+                <div style="display: flex; gap: 16px;">
+                    <button class="btn btn-primary" onclick="showDashboard()">Start Learning <i
+                            class="fas fa-arrow-right"></i></button>
+                    <button class="btn btn-outline" onclick="document.getElementById('modules').scrollIntoView()">View
+                        Modules</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/meta_marketing_hero_1771675049551.png" alt="Hero"
+                    style="width: 100%; border-radius: 24px;">
+            </div>
+        </section>
+
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Advanced E-commerce Education</h2>
+                    <p>Stop "guessing" with your ad budget. Follow a proven system.</p>
+                </div>
+                <div class="benefit-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data-Driven Scaling</h3>
+                        <p>Learn when and how to increase budgets without resetting the learning phase.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Creative Strategy</h3>
+                        <p>Master UGC and high-converting video hooks that stop the scroll.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Technical Mastery</h3>
+                        <p>Full setup of Meta Pixel, Conversions API (CAPI), and Aggregate Event Measurement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules" class="container" style="padding: 100px 0;">
+            <div class="section-title">
+                <h2>The Course Curriculum</h2>
+                <p>Real lessons. Real strategies. Zero placeholders.</p>
+            </div>
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <img src="images/meta_marketing_hero_1771675075538.png" class="card-image" alt="M1">
+                    <h4>1. Foundations</h4>
+                    <p>Ads Manager setup, Shopify connection, and the winning product mindset.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/meta_learning_hero_webp_1771675113408.png" class="card-image" alt="M2">
+                    <h4>2. Technical Setup</h4>
+                    <p>Deep dive into Pixel, Conversions API, and domain verification.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg" class="card-image" alt="M3">
+                    <h4>3. Creative Strategy</h4>
+                    <p>Crafting viral ad creatives and testing your first campaign audiences.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/hero_ecommerce_marketing_1771675155238.png" class="card-image" alt="M4">
+                    <h4>4. Scaling Rules</h4>
+                    <p>Sandbox testing, 72-hour rule, and horizontal/vertical scaling.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="images/hero_meta_marketing_1771675178719.png" class="card-image" alt="M5">
+                    <h4>5. Retargeting</h4>
+                    <p>Advanced custom audiences, LTV optimization, and Lookalike mastery.</p>
+                </div>
+                <div class="benefit-card">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800"
+                        class="card-image" alt="M6">
+                    <h4>6. Agency Operations</h4>
+                    <p>Client acquisition roadmaps, reporting templates, and micro-niche branding.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="dashboard" class="dashboard-container" style="display: none;">
+        <div class="app-shell">
+            <aside class="sidebar">
+                <div class="logo" style="margin-bottom: 30px; font-size: 1.2rem;">LMS Dashboard</div>
+
+                <div class="progress-section">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                        <span
+                            style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Progress</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-fill" id="overall-progress" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <div class="module-list">
+                    <div class="module-group">
+                        <h4>1. Foundations</h4>
+                        <div class="module-item" onclick="loadLesson('m1-1')"><i class="fas fa-play"></i> 1.1 Meta
+                            Revolution</div>
+                        <div class="module-item" onclick="loadLesson('m1-2')"><i class="fas fa-play"></i> 1.2 Why Meta
+                            Wins</div>
+                        <div class="module-item" onclick="loadLesson('m1-3')"><i class="fas fa-play"></i> 1.3 Social
+                            Psychology</div>
+                        <div class="module-item" onclick="loadLesson('m1-4')"><i class="fas fa-play"></i> 1.4 Essential
+                            Assets</div>
+                        <div class="module-item" onclick="loadLesson('m1-5')"><i class="fas fa-play"></i> 1.5 Campaign
+                            Anatomy</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>2. Technical</h4>
+                        <div class="module-item" onclick="loadLesson('m2-1')"><i class="fas fa-play"></i> 2.1 Tracking
+                            Philosophy</div>
+                        <div class="module-item" onclick="loadLesson('m2-2')"><i class="fas fa-play"></i> 2.2 Shopify
+                            integration</div>
+                        <div class="module-item" onclick="loadLesson('m2-3')"><i class="fas fa-play"></i> 2.3 Solving
+                            iOS 14</div>
+                        <div class="module-item" onclick="loadLesson('m2-4')"><i class="fas fa-play"></i> 2.4 Domain
+                            Verify</div>
+                        <div class="module-item" onclick="loadLesson('m2-5')"><i class="fas fa-play"></i> 2.5 Custom
+                            sites</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>3. Creative Strategy</h4>
+                        <div class="module-item" onclick="loadLesson('m3-1')"><i class="fas fa-play"></i> 3.1 Ad Anatomy
+                        </div>
+                        <div class="module-item" onclick="loadLesson('m3-2')"><i class="fas fa-play"></i> 3.2 Master the
+                            Hook</div>
+                        <div class="module-item" onclick="loadLesson('m3-3')"><i class="fas fa-play"></i> 3.3 AI
+                            Scripting</div>
+                        <div class="module-item" onclick="loadLesson('m3-4')"><i class="fas fa-play"></i> 3.4 Success
+                            Metrics</div>
+                        <div class="module-item" onclick="loadLesson('m3-5')"><i class="fas fa-play"></i> 3.5 CTA &
+                            Urgency</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>4. Scaling</h4>
+                        <div class="module-item" onclick="loadLesson('m4-1')"><i class="fas fa-play"></i> 4.1 Sandbox
+                            method</div>
+                        <div class="module-item" onclick="loadLesson('m4-2')"><i class="fas fa-play"></i> 4.2 72-Hour
+                            rule</div>
+                        <div class="module-item" onclick="loadLesson('m4-3')"><i class="fas fa-play"></i> 4.3 Vertical
+                            scaling</div>
+                        <div class="module-item" onclick="loadLesson('m4-4')"><i class="fas fa-play"></i> 4.4 Horizontal
+                            scaling</div>
+                        <div class="module-item" onclick="loadLesson('m4-5')"><i class="fas fa-play"></i> 4.5 Post ID
+                            method</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>5. Growth</h4>
+                        <div class="module-item" onclick="loadLesson('m5-1')"><i class="fas fa-play"></i> 5.1 Warm
+                            traffic</div>
+                        <div class="module-item" onclick="loadLesson('m5-2')"><i class="fas fa-play"></i> 5.2 Custom
+                            Audiences</div>
+                        <div class="module-item" onclick="loadLesson('m5-3')"><i class="fas fa-play"></i> 5.3 Funnel
+                            Creative</div>
+                        <div class="module-item" onclick="loadLesson('m5-4')"><i class="fas fa-play"></i> 5.4 Lookalike
+                            mastery</div>
+                        <div class="module-item" onclick="loadLesson('m5-5')"><i class="fas fa-play"></i> 5.5
+                            Understanding LTV</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>6. Business</h4>
+                        <div class="module-item" onclick="loadLesson('m6-1')"><i class="fas fa-play"></i> 6.1 Analytics
+                        </div>
+                        <div class="module-item" onclick="loadLesson('m6-2')"><i class="fas fa-play"></i> 6.2 Client
+                            Reporting</div>
+                        <div class="module-item" onclick="loadLesson('m6-3')"><i class="fas fa-play"></i> 6.3 Client
+                            Roadmap</div>
+                        <div class="module-item" onclick="loadLesson('m6-4')"><i class="fas fa-play"></i> 6.4 Niche
+                            Branding</div>
+                        <div class="module-item" onclick="loadLesson('m6-5')"><i class="fas fa-play"></i> 6.5 Platforms
+                        </div>
+                    </div>
+                    <div class="module-group">
+                        <h4>🏆 Certification</h4>
+                        <div class="module-item" onclick="loadLesson('final-summary')"><i
+                                class="fas fa-certificate"></i> Summary</div>
+                        <div class="module-item" onclick="showQuiz('final')"><i class="fas fa-crown"></i> Capstone Exam
+                        </div>
+                    </div>
+                    <div class="module-group">
+                        <h4>📝 Assessments</h4>
+                        <div class="module-item" onclick="showQuiz('module1')"><i class="fas fa-question-circle"></i> M1
+                            Quiz</div>
+                        <div class="module-item" onclick="showQuiz('module2')"><i class="fas fa-question-circle"></i> M2
+                            Quiz</div>
+                        <div class="module-item" onclick="showQuiz('module3')"><i class="fas fa-question-circle"></i> M3
+                            Quiz</div>
+                        <div class="module-item" onclick="showQuiz('module4')"><i class="fas fa-question-circle"></i> M4
+                            Quiz</div>
+                        <div class="module-item" onclick="showQuiz('module5')"><i class="fas fa-question-circle"></i> M5
+                            Quiz</div>
+                        <div class="module-item" onclick="showQuiz('module6')"><i class="fas fa-question-circle"></i> M6
+                            Quiz</div>
+                    </div>
+                    <div class="module-group">
+                        <h4>🛠️ Practice</h4>
+                        <div class="module-item" onclick="showSection('simulation')"><i class="fas fa-vial"></i>
+                            Simulator</div>
+                        <div class="module-item" onclick="showAssignments()"><i class="fas fa-tasks"></i> Assignments
+                        </div>
+                        <div class="module-item" onclick="showResources()"><i class="fas fa-file-pdf"></i> Resources
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <div id="lesson-view" class="content-section">
+                    <div class="lesson-viewer">
+                        <div class="lesson-banner" id="lesson-banner">
+                            <h2 id="lesson-title">Welcome</h2>
+                        </div>
+                        <div class="video-container" style="display: none;">
+                            <iframe id="video-iframe" src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="lesson-content" id="lesson-content"></div>
+                        <div
+                            style="margin-top:50px; padding-top:20px; border-top:1px solid var(--border); display:flex; justify-content:space-between;">
+                            <button class="btn btn-primary" onclick="markComplete()">Complete Lesson</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="simulation-view" class="content-section" style="display: none;">
+                    <div class="simulation-card">
+                        <h2>Ad Simulator</h2>
+                        <div class="form-group"><label>Daily Budget</label><input type="number" class="form-control"
+                                placeholder="1000"></div>
+                        <button class="btn btn-primary" onclick="alert('Simulation Successful!')">Launch</button>
+                    </div>
+                </div>
+
+                <div id="quiz-view" class="content-section" style="display: none;"></div>
+                <div id="assignments-view" class="content-section" style="display: none;"></div>
+                <div id="resources-view" class="content-section" style="display: none;"></div>
+            </main>
+        </div>
+    </div>
+
+    <div class="chatbot-toggle" onclick="toggleChatbot()"><i class="fas fa-comment"></i></div>
+    <div class="chatbot-widget" id="chatbot-widget">
+        <div class="chatbot-header">Assistant <i class="fas fa-times" onclick="toggleChatbot()"></i></div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chat-input" class="form-control">
+            <button class="btn btn-primary" onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
