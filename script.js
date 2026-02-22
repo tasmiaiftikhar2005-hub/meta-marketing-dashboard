@@ -3,7 +3,7 @@ const lessonsData = {
     'm1-1': {
         title: "1.1 The Digital Marketing Revolution",
         video: "https://www.youtube.com/embed/l_oEL1mBPMo",
-        image: "images/meta_marketing_hero_1771675075538.png",
+        image: "meta_marketing_hero_1771675075538.png",
         explanation: `
             <p>Digital marketing is no longer an "option"—it is the lifeblood of modern commerce. In this lesson, we break down the shift from interruption-based media to data-driven discovery.</p>
             <div class="step-card">
@@ -28,7 +28,7 @@ const lessonsData = {
     'm1-2': {
         title: "1.2 Why Meta is the King of E-commerce",
         video: "https://www.youtube.com/embed/yPL3FlH0QCE",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Meta controls the world's most advanced behavioral database. Over 3 billion people share their desires, hobbies, and shopping habits with Meta every single day.</p>
             <div class="step-card">
@@ -45,7 +45,7 @@ const lessonsData = {
     'm1-3': {
         title: "1.3 The Psychology of Social Shopping",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>To win on social media, you must stop the "Dopamine Scroll." Your ad is competing with memories, news, and entertainment.</p>
             <div class="step-card">
@@ -62,7 +62,7 @@ const lessonsData = {
     'm1-4': {
         title: "1.4 Essential Meta Assets & Security",
         video: "",
-        image: "images/meta_marketing_hero_1771675075538.png",
+        image: "meta_marketing_hero_1771675075538.png",
         explanation: `
             <p>A professional digital presence requires a robust foundation. 90% of bans happen because of poor asset structure.</p>
             <div class="step-card">
@@ -106,7 +106,7 @@ const lessonsData = {
     'm2-1': {
         title: "2.1 The Philosophy of Meta Tracking",
         video: "",
-        image: "images/meta_learning_hero_webp_1771675113408.png",
+        image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>Tracking is the "Brain" of your advertising. Without it, Meta is just guessing who your customers are.</p>
             <div class="step-card">
@@ -125,7 +125,7 @@ const lessonsData = {
     'm2-2': {
         title: "2.2 Shopify-Meta Integration Mastery",
         video: "",
-        image: "images/meta_learning_hero_webp_1771675113408.png",
+        image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>Shopify is the world's most meta-friendly platform. Integrating them takes 5 minutes but requires "Maximum" settings.</p>
             <div class="step-card">
@@ -142,7 +142,7 @@ const lessonsData = {
     'm2-3': {
         title: "2.3 Solving iOS 14 with CAPI",
         video: "",
-        image: "images/meta_learning_hero_webp_1771675113408.png",
+        image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>Apple's iOS 14 update blocked browser-based pixels. The solution is <strong>Conversions API (CAPI)</strong>.</p>
             <div class="step-card">
@@ -155,7 +155,7 @@ const lessonsData = {
     'm2-4': {
         title: "2.4 Domain Verification & Aggregated Events",
         video: "",
-        image: "images/meta_learning_hero_webp_1771675113408.png",
+        image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>To respect user privacy while tracking sales, Meta requires you to prove you own the website domain.</p>
             <div class="step-card">
@@ -172,7 +172,7 @@ const lessonsData = {
     'm2-5': {
         title: "2.5 Implementation for Custom Sites",
         video: "",
-        image: "images/meta_learning_hero_webp_1771675113408.png",
+        image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>If you aren't on Shopify, you must use <strong>Google Tag Manager (GTM)</strong> or manual Hard-Coding.</p>
             <div class="step-card">
@@ -186,7 +186,7 @@ const lessonsData = {
     'm3-1': {
         title: "3.1 Video Ad Anatomy & Storytelling",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>Creative is the new targeting. Meta's AI uses your visual content to find your audience. A winning ad follows a specific storytelling arc.</p>
             <div class="step-card">
@@ -203,7 +203,7 @@ const lessonsData = {
     'm3-2': {
         title: "3.2 Mastering The Hook: 5 Frameworks",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>If you don't win the hook, the rest of your ad doesn't matter. Here are 5 proven hooks for e-commerce:</p>
             <div class="step-card">
@@ -228,7 +228,7 @@ const lessonsData = {
     'm3-3': {
         title: "3.3 AI-Powered Scripting & ChatGPT",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>ChatGPT is your 24/7 copywriter. Use the <strong>AIDA framework</strong> to write viral scripts in minutes.</p>
             <div class="step-card">
@@ -242,7 +242,7 @@ const lessonsData = {
     'm3-4': {
         title: "3.4 Success Metrics: Reading The Data",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>Don't just look at ROAS. To fix a failing ad, you must diagnose *where* it is failing.</p>
             <div class="step-card">
@@ -258,7 +258,7 @@ const lessonsData = {
     'm3-5': {
         title: "3.5 CTA, Urgency & Behavioral Triggers",
         video: "",
-        image: "images/629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
+        image: "629980be-5abb-4f98-b148-b85b8b09c7b7.jpg",
         explanation: `
             <p>A good ad informs, but a great ad converts. You must give the user a psychological nudge to take action.</p>
             <div class="step-card">
@@ -276,7 +276,7 @@ const lessonsData = {
     'm4-1': {
         title: "4.1 The Sandbox Methodology: Testing for Success",
         video: "",
-        image: "images/hero_ecommerce_marketing_1771675155238.png",
+        image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>Never test new ideas in your main scaling campaign. The <strong>Sandbox</strong> is a controlled environment for experimentation.</p>
             <div class="step-card">
@@ -288,7 +288,7 @@ const lessonsData = {
     'm4-2': {
         title: "4.2 The 72-Hour Rule & The Learning Phase",
         video: "",
-        image: "images/hero_ecommerce_marketing_1771675155238.png",
+        image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>Meta's algorithm enters the **'Learning Phase'** every time you launch. Pivoting too soon will kill your results.</p>
             <div class="step-card">
@@ -301,7 +301,7 @@ const lessonsData = {
     'm4-3': {
         title: "4.3 Vertical Scaling: Milking the Winners",
         video: "",
-        image: "images/hero_ecommerce_marketing_1771675155238.png",
+        image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>Vertical scaling is increasing the budget on a successful ad set to drive more volume.</p>
             <div class="step-card">
@@ -325,7 +325,7 @@ const lessonsData = {
     'm4-4': {
         title: "4.4 Horizontal Scaling: Expanding Reach",
         video: "",
-        image: "images/hero_ecommerce_marketing_1771675155238.png",
+        image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>Horizontal scaling is finding new "pockets" of customers by testing new audiences.</p>
             <div class="step-card">
@@ -341,7 +341,7 @@ const lessonsData = {
     'm4-5': {
         title: "4.5 The Post ID Method: Preserving Virality",
         video: "",
-        image: "images/hero_ecommerce_marketing_1771675155238.png",
+        image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>Don't restart with 0 likes when you scale. Carry your social proof into your scaling campaigns.</p>
             <div class="step-card">
@@ -355,7 +355,7 @@ const lessonsData = {
     'm5-1': {
         title: "5.1 The Logic of Warm Traffic: ROI Mastery",
         video: "",
-        image: "images/hero_meta_marketing_1771675178719.png",
+        image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Retargeting is harvesting the sales from people who saw your brand but didn't buy on the first visit.</p>
             <div class="step-card">
@@ -367,7 +367,7 @@ const lessonsData = {
     'm5-2': {
         title: "5.2 Custom Audience Creation",
         video: "",
-        image: "images/hero_meta_marketing_1771675178719.png",
+        image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Build audiences based on behavior. This is the difference between a generalist and a specialist.</p>
             <div class="step-card">
@@ -384,7 +384,7 @@ const lessonsData = {
     'm5-3': {
         title: "5.3 Funnel Logic & Objection Handling",
         video: "",
-        image: "images/hero_meta_marketing_1771675178719.png",
+        image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Warm audiences need different ads. They already know what you sell; now they need to know why they should trust you.</p>
             <div class="step-card">
@@ -400,7 +400,7 @@ const lessonsData = {
     'm5-4': {
         title: "5.4 Lookalike Mastery (LALs): The Data Seed",
         video: "",
-        image: "images/hero_meta_marketing_1771675178719.png",
+        image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Lookalike Audiences tell Meta: "Find me people who act exactly like these 1,000 buyers."</p>
             <div class="step-card">
@@ -412,7 +412,7 @@ const lessonsData = {
     'm5-5': {
         title: "5.5 Understanding LTV & The Retention Engine",
         video: "",
-        image: "images/hero_meta_marketing_1771675178719.png",
+        image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Profit doesn't come from the first sale; it comes from the second. <strong>LTV (Lifetime Value)</strong> determines the survival of your brand.</p>
             <div class="step-card">
@@ -426,7 +426,7 @@ const lessonsData = {
     'm6-1': {
         title: "6.1 Monitoring and Analytics Mastery",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Media buying is a game of probability. You must track your metrics every single day to stay profitable.</p>
             <div class="step-card">
@@ -442,7 +442,7 @@ const lessonsData = {
     'm6-2': {
         title: "6.2 Professional Client Reporting & Tools",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Clients don't pay for ads; they pay for **Clarity**. A good report is your insurance policy to keep a monthly retainer.</p>
             <div class="step-card">
@@ -459,7 +459,7 @@ const lessonsData = {
     'm6-3': {
         title: "6.3 Client Acquisition Roadmap: From 0 to $10k/mo",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>The biggest struggle for new media buyers is finding that first client. Start local.</p>
             <div class="step-card">
@@ -475,7 +475,7 @@ const lessonsData = {
     'm6-4': {
         title: "6.4 Niche Specialization & Authority Branding",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>A "Generalist" is a commodity. A "Specialist for High-Ticket Furniture Stores" is a partner.</p>
             <div class="step-card">
@@ -487,7 +487,7 @@ const lessonsData = {
     'm6-5': {
         title: "6.5 Leveraging Freelance Platforms & Global Scaling",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Upwork, Fiverr, and K-Work are gateways to international business. Focus on your profile's "Trust Score."</p>
             <div class="strategy-tip"><strong>DANGER:</strong> Never compete on price. Compete on ROAS. A client will always pay $1,000 for someone who brings them $10,000.</div>
@@ -496,7 +496,7 @@ const lessonsData = {
     'final-summary': {
         title: "Congratulations: Your Meta Ads Mastery Roadmap",
         video: "",
-        image: "images/meta_marketing_hero_1771675049551.png",
+        image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>You have finished the technical curriculum. Now, the real learning begins in the Ads Manager.</p>
             <div class="step-card">
