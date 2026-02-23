@@ -59,7 +59,7 @@ const lessonsData = {
 
     'pixel': {
         title: "1.3 The Psychology of Social Shopping",
-        video: "",
+        video: "https://www.youtube.com/embed/3SnvXs2iz7c",
         image: "images/meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>To master Meta advertising, you must first understand the fundamental psychology of why people buy on social media. This is the mental model that separates profitable advertisers from those who waste budget.</p>
@@ -87,7 +87,7 @@ const lessonsData = {
 
     'algorithm': {
         title: "1.4 Essential Meta Assets Setup",
-        video: "",
+        video: "https://www.youtube.com/embed/HwtXz4GinFo",
         image: "images/hero_ecommerce_learning_1771675133364.png",
         explanation: `
             <p>Before you spend a single rupee on ads, you must build your professional infrastructure within Meta. Skipping this setup is the #1 mistake beginners make, often leading to account bans and lost data.</p>
@@ -123,7 +123,7 @@ const lessonsData = {
 
     'first-campaign': {
         title: "1.5 The Anatomy of a Meta Campaign",
-        video: "",
+        video: "https://www.youtube.com/embed/TxnnJ991YBY",
         image: "images/hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>A Meta campaign is organized into a <strong>three-tier hierarchy</strong>. Every single ad you see on Facebook or Instagram is structured this way. Understanding this architecture is non-negotiable before you spend any budget.</p>
@@ -155,7 +155,7 @@ const lessonsData = {
     // ════════════════════════════════════════════════════════
     'research': {
         title: "2.1 The Philosophy of Meta Tracking",
-        video: "",
+        video: "https://www.youtube.com/embed/71b7zi4YQxM",
         image: "images/hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>In modern e-commerce, Meta marketing is no longer about finding the audience — it is about <strong>feeding the algorithm</strong>. Meta's AI system is world-famous and highly efficient, often understanding who will buy better than a human can. But to do this, it requires a constant flow of high-quality data signals from your website.</p>
@@ -183,7 +183,7 @@ const lessonsData = {
 
     'creatives': {
         title: "2.2 The Shopify-Meta Integration",
-        video: "",
+        video: "https://www.youtube.com/embed/cVUMqx-jepE",
         image: "images/meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>For e-commerce brands using Shopify, the integration process has been fully automated through an official Meta application. This removes the need for any manual coding and is the industry's gold standard setup.</p>
@@ -339,7 +339,7 @@ const lessonsData = {
 
     'scaling-h': {
         title: "3.2 Master the Hook: 4 Proven Architectures",
-        video: "",
+        video: "https://www.youtube.com/embed/onQoYdxWXdA",
         image: "images/hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>There are four battle-tested psychological hook architectures used by the world's top e-commerce brands. Each exploits a different human psychological trigger. Mastering all four gives you an arsenal to test against any audience.</p>
@@ -393,7 +393,7 @@ const lessonsData = {
 
     'broad': {
         title: "3.3 Winning Ad Formats & AI Scripting",
-        video: "",
+        video: "https://www.youtube.com/embed/4o46eGI6XwQ",
         image: "images/meta_marketing_hero_1771675075538.png",
         explanation: `
             <h4>The 5 Winning E-commerce Ad Formats</h4>
@@ -446,7 +446,7 @@ const lessonsData = {
 
     'cbo-abo': {
         title: "3.4 Creative Metrics & Optimization",
-        video: "",
+        video: "https://www.youtube.com/embed/kuSq-pmNfnM",
         image: "images/meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>The most expensive mistake in Meta advertising is making creative decisions based on feelings rather than data. Every creative decision must be validated by specific metrics measured at specific time intervals.</p>
@@ -489,7 +489,7 @@ const lessonsData = {
 
     'retargeting': {
         title: "3.5 The CTA & 3.6 AI Copywriting",
-        video: "",
+        video: "https://www.youtube.com/embed/VwedJBqdUIs",
         image: "images/hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <h4>3.5 Crafting the Perfect CTA</h4>
@@ -528,7 +528,7 @@ const lessonsData = {
     // ════════════════════════════════════════════════════════
     'module4-1': {
         title: "4.1 The ABO Testing Framework",
-        video: "",
+        video: "https://www.youtube.com/embed/V04LhLgnoRg",
         image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Once your technical foundation (Module 2) and creative scripts (Module 3) are ready, you must execute a <strong>systematic testing phase</strong>. Random testing is gambling. Systematic testing is a science. This module transforms you from a gambler into a Performance Scientist.</p>
@@ -554,7 +554,7 @@ const lessonsData = {
 
     'module4-2': {
         title: "4.2 Data Analysis: The 24/48/72 Hour Rule",
-        video: "",
+        video: "https://www.youtube.com/embed/HwO7g5uHHYY",
         image: "meta_marketing_hero_1771675075538.png",
         explanation: `
             <p>The most dangerous thing an advertiser can do is make decisions too early — or too late. You must analyze data at the right intervals, looking at the right metrics at each stage. Here is the professional framework.</p>
@@ -597,7 +597,7 @@ const lessonsData = {
 
     'module4-3': {
         title: "4.3 Scaling Strategies: From 10 to 100 Orders",
-        video: "",
+        video: "https://www.youtube.com/embed/2vd2eJb1JG0",
         image: "meta_learning_hero_webp_1771675113408.png",
         explanation: `
             <p>Scaling is the process of systematically increasing the volume of your winning ads without destroying their performance. Most advertisers ruin their winning ads by scaling too aggressively. Here is the professional framework for scaling safely.</p>
@@ -649,7 +649,7 @@ const lessonsData = {
     // ════════════════════════════════════════════════════════
     'module5-1': {
         title: "5.1 Retargeting: Converting Warm Audiences",
-        video: "",
+        video: "https://www.youtube.com/embed/LoXY3cS3klg",
         image: "hero_ecommerce_marketing_1771675155238.png",
         explanation: `
             <p>90% of first-time website visitors will not buy on their first visit. Retargeting is the strategy of re-engaging these warm prospects — people who have already shown interest in your brand — with targeted ads designed to convert them into buyers.</p>
@@ -685,7 +685,7 @@ const lessonsData = {
 
     'module5-2': {
         title: "5.2 Retention: Maximizing Customer Lifetime Value",
-        video: "",
+        video: "www.youtube.com/embed/Gmc8UxiwShA",
         image: "hero_meta_marketing_1771675178719.png",
         explanation: `
             <p>Acquisition is expensive. Retention is profitable. Research consistently shows that selling to an existing customer costs <strong>5–7x less</strong> than acquiring a new one, and existing customers have a <strong>60–70% probability</strong> of buying again versus 5–20% for new prospects. Retention is where the real profit lives in e-commerce.</p>
@@ -733,7 +733,7 @@ const lessonsData = {
     // ════════════════════════════════════════════════════════
     'module6-1': {
         title: "6.1 Monitoring, Analytics & Client Reporting",
-        video: "",
+        video: "https://www.youtube.com/embed/sO4te2QNsHY",
         image: "meta_marketing_hero_1771675049551.png",
         explanation: `
             <p>Whether you are managing your own e-commerce store or running ads for clients as a freelancer, professional monitoring and reporting is the difference between appearing amateur and commanding premium rates.</p>
@@ -772,7 +772,7 @@ const lessonsData = {
 
     'module6-2': {
         title: "6.2 Client Acquisition & Building Your Brand",
-        video: "",
+        video: "https://www.youtube.com/embed/ZHPAFE00oY0",
         image: "meta_marketing_hero_1771675075538.png",
         explanation: `
             <p>The technical skills you've learned in this course are worth nothing without clients to apply them to. This lesson gives you the complete roadmap for acquiring your first clients, building your reputation, and scaling into a sustainable freelance media buying business.</p>
